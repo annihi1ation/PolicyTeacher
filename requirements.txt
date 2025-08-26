@@ -1,0 +1,15 @@
+# Core dependencies for the CLI Teaching Agent
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+openai>=1.0.0
+colorama>=0.4.6
+duckduckgo-search>=3.9.0
+
+# ML dependencies for emotion detection
+transformers>=4.35.0
+torch>=2.0.0
+numpy>=1.24.0
+
+# Optional but recommended
+python-dotenv>=1.0.0
