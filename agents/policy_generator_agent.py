@@ -5,7 +5,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage
 
-from models import EmotionState, LanguageLevel, EmotionTrend
+from helper.models import EmotionState, LanguageLevel, EmotionTrend
 
 
 class PolicyGeneratorAgent:

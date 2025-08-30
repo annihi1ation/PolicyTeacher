@@ -5,7 +5,7 @@ from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassifica
 from typing import Optional, Dict, List
 import logging
 
-from models import EmotionState
+from helper.models import EmotionState
 
 
 class BERTEmotionDetector:

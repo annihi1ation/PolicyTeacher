@@ -6,10 +6,10 @@ This script demonstrates different ways to use the teaching agent.
 """
 
 import os
-from teaching_agent_core import SimpleTeachingAgent
-from models import EmotionState, LanguageLevel, StudentProfile
-from utils import SessionStorage
-from emotion_detector import EmotionDetector
+from agents.teaching_agent_core import SimpleTeachingAgent
+from helper.models import EmotionState, LanguageLevel, StudentProfile
+from helper.utils import SessionStorage
+from helper.emotion_detector import EmotionDetector
 
 def example_basic_usage():
     """Basic usage example"""

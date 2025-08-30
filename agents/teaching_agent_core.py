@@ -12,7 +12,7 @@ from langchain_core.tools import Tool
 from langchain_openai import ChatOpenAI
 from langchain_community.chat_message_histories import ChatMessageHistory
 
-from models import (
+from helper.models import (
     TeachingContext, StudentProfile, EmotionState, 
     LanguageLevel, TeachingPolicy, ChatMessage
 )
@@ -20,12 +20,12 @@ from prompts import (
     teaching_prompt_template, teaching_character, 
     teaching_user_profile, teaching_rules, level_instructions
 )
-from utils import (
+from helper.utils import (
     WordManager, SessionStorage, get_encouragement
 )
-from emotion_detector import EmotionDetector
-from language_level_agent import LanguageLevelAgent
-from policy_generator_agent import PolicyGeneratorAgent
+from helper.emotion_detector import EmotionDetector
+from agents.language_level_agent import LanguageLevelAgent
+from agents.policy_generator_agent import PolicyGeneratorAgent
 
 
 class TeachingAgentCore:

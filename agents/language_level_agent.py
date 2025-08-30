@@ -7,7 +7,7 @@ from langchain_core.tools import Tool
 from langchain_openai import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage
 
-from models import LanguageLevel, ChatMessage
+from helper.models import LanguageLevel, ChatMessage
 
 
 class LanguageLevelAgent:

@@ -7,7 +7,7 @@ from typing import List, Dict, Optional, Tuple
 from datetime import datetime
 from pathlib import Path
 
-from models import (
+from helper.models import (
     EmotionState, LanguageLevel, StudentProfile, 
     WordKnowledge, TeachingPolicy, ChatMessage
 )
